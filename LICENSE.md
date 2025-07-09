@@ -22,3 +22,20 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
+
+--------------------------------------------------------------------------
+SOUND CREDITS
+
+"Ethernight Club" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/ 
+
+Action 01 by rhodesmas -- https://freesound.org/s/320777/ -- License: Attribution 3.0
+
+Action 02 by rhodesmas -- https://freesound.org/s/320776/ -- License: Attribution 3.0
+
+Disconnected 01 by rhodesmas -- https://freesound.org/s/322895/ -- License: Attribution 3.0
+
+UI Button Press by el_boss -- https://freesound.org/s/788611/ -- License: Creative Commons 0
+
+Cancel or No Button Sound by el_boss -- https://freesound.org/s/788602/ -- License: Creative Commons 0
