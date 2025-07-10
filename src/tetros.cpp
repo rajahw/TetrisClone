@@ -1,4 +1,4 @@
-#include "tetros.h"
+#include "include/tetros.h"
 
 OBlock::OBlock() {
     dimensions = 2;
@@ -19,7 +19,6 @@ OBlock::OBlock() {
     arenaX = 4;
     arenaY = 0;
     position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
-    isGhost = false;
 }
 
 std::unique_ptr<Block> OBlock::clone() {
@@ -81,7 +80,6 @@ IBlock::IBlock() {
     arenaX = 3;
     arenaY = -1;
     position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
-    isGhost = false;
 }
 
 std::unique_ptr<Block> IBlock::clone() {
@@ -245,7 +243,6 @@ SBlock::SBlock() {
     arenaX = 4;
     arenaY = 0;
     position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
-    isGhost = false;
 }
 
 std::unique_ptr<Block> SBlock::clone() {
@@ -383,7 +380,6 @@ ZBlock::ZBlock() {
     arenaX = 4;
     arenaY = 0;
     position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
-    isGhost = false;
 }
 
 std::unique_ptr<Block> ZBlock::clone() {
@@ -521,7 +517,6 @@ LBlock::LBlock() {
     arenaX = 4;
     arenaY = 0;
     position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
-    isGhost = false;
 }
 
 std::unique_ptr<Block> LBlock::clone() {
@@ -660,7 +655,6 @@ JBlock::JBlock() {
     arenaX = 4;
     arenaY = -1;
     position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
-    isGhost = false;
 }
 
 std::unique_ptr<Block> JBlock::clone() {

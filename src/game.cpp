@@ -1,4 +1,4 @@
-#include "game.h"
+#include "include/game.h"
 
 Game::Game() {
     blockType = 0;

@@ -11,7 +11,6 @@ class Block {
         int rotation;
         int arenaX;
         int arenaY;
-        bool isGhost;
 
         Block();
         void moveLeft();

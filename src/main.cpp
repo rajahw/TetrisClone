@@ -1,8 +1,8 @@
-#include "consts.h"
-#include "arena.h"
-#include "block.h"
-#include "tetros.h"
-#include "game.h"
+#include "include/consts.h"
+#include "include/arena.h"
+#include "include/block.h"
+#include "include/tetros.h"
+#include "include/game.h"
 
 int main() {
     //Initialize window
