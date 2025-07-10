@@ -150,7 +150,7 @@ void Game::reset() {
 }
 
 void Game::loadAssets() {
-    font = LoadFont("resources/fonts/alpha_beta.png");
+    font = LoadFont("build/_deps/raylib-src/examples/text/resources/fonts/alpha_beta.png");
     music = LoadMusicStream("sfx/music.mp3");
     loseSound = LoadSound("sfx/loss.wav");
     openMenu = LoadSound("sfx/menuopen.wav");

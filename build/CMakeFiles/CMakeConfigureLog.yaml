@@ -1,0 +1,2183 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mingw32-make.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mingw32-make.exe.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mingw32-make.exe"
+      - "C:/Program Files/dotnet/mingw32-make.exe.com"
+      - "C:/Program Files/dotnet/mingw32-make.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mingw32-make.exe.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mingw32-make.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/mingw32-make.exe.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/mingw32-make.exe"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe.com"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/mingw32-make.exe.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/mingw32-make.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/mingw32-make.exe.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/mingw32-make.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe"
+      - "C:/msys64/ucrt64/bin/mingw32-make.exe.com"
+    found: "C:/msys64/ucrt64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/raylib/w64devkit/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification could not be found in:
+        C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/4.1.0-rc1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/raylib/w64devkit/bin/g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/4.1.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/ar.com"
+    found: "C:/raylib/w64devkit/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/ranlib.com"
+    found: "C:/raylib/w64devkit/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/strip.com"
+    found: "C:/raylib/w64devkit/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/ld.com"
+    found: "C:/raylib/w64devkit/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/nm.com"
+    found: "C:/raylib/w64devkit/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/objdump.com"
+    found: "C:/raylib/w64devkit/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/objcopy.com"
+    found: "C:/raylib/w64devkit/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/readelf.com"
+      - "C:/raylib/w64devkit/bin/readelf.exe"
+      - "C:/raylib/w64devkit/bin/readelf"
+      - "C:/Windows/System32/readelf.com"
+      - "C:/Windows/System32/readelf.exe"
+      - "C:/Windows/System32/readelf"
+      - "C:/Windows/readelf.com"
+      - "C:/Windows/readelf.exe"
+      - "C:/Windows/readelf"
+      - "C:/Windows/System32/wbem/readelf.com"
+      - "C:/Windows/System32/wbem/readelf.exe"
+      - "C:/Windows/System32/wbem/readelf"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf"
+      - "C:/Windows/System32/OpenSSH/readelf.com"
+      - "C:/Windows/System32/OpenSSH/readelf.exe"
+      - "C:/Windows/System32/OpenSSH/readelf"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/readelf.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/readelf.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/readelf"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/readelf.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/readelf.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/readelf"
+      - "C:/Program Files/dotnet/readelf.com"
+      - "C:/Program Files/dotnet/readelf.exe"
+      - "C:/Program Files/dotnet/readelf"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/readelf.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/readelf.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/readelf"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/readelf.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/readelf.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/readelf"
+      - "C:/Program Files/Git/cmd/readelf.com"
+      - "C:/Program Files/Git/cmd/readelf.exe"
+      - "C:/Program Files/Git/cmd/readelf"
+      - "C:/Program Files/CMake/bin/readelf.com"
+      - "C:/Program Files/CMake/bin/readelf.exe"
+      - "C:/Program Files/CMake/bin/readelf"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/readelf.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/readelf.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/readelf"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/readelf.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/readelf.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/readelf"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/readelf.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/readelf.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/readelf"
+      - "C:/msys64/ucrt64/bin/readelf.com"
+    found: "C:/msys64/ucrt64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/dlltool.com"
+    found: "C:/raylib/w64devkit/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/addr2line.com"
+    found: "C:/raylib/w64devkit/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/tapi.com"
+      - "C:/raylib/w64devkit/bin/tapi.exe"
+      - "C:/raylib/w64devkit/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/tapi.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/tapi.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/tapi.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/tapi.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/tapi"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/tapi.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/tapi.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/tapi"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/tapi.com"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/tapi.exe"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/tapi"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-14.2"
+      - "gcc-ar-14"
+      - "gcc-ar14"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/gcc-ar-14.2.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar-14.2.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar-14.2"
+      - "C:/Windows/System32/gcc-ar-14.2.com"
+      - "C:/Windows/System32/gcc-ar-14.2.exe"
+      - "C:/Windows/System32/gcc-ar-14.2"
+      - "C:/Windows/gcc-ar-14.2.com"
+      - "C:/Windows/gcc-ar-14.2.exe"
+      - "C:/Windows/gcc-ar-14.2"
+      - "C:/Windows/System32/wbem/gcc-ar-14.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-14.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-14.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-14.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-14.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-14.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-14.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-14.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-14.2"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-14.2.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-14.2.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-14.2"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-14.2.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-14.2.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-14.2"
+      - "C:/Program Files/dotnet/gcc-ar-14.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-14.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-14.2"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-14.2.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-14.2.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-14.2"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar-14.2.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar-14.2.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar-14.2"
+      - "C:/Program Files/Git/cmd/gcc-ar-14.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-14.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-14.2"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.2"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.2.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.2.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.2"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar-14.2.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar-14.2.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar-14.2"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2"
+      - "C:/msys64/ucrt64/bin/gcc-ar-14.2.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-14.2.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-14.2"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar-14.2.com"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar-14.2.exe"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar-14.2"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2.com"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2.exe"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.com"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.exe"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2"
+      - "C:/raylib/w64devkit/bin/gcc-ar-14.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar-14.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar-14"
+      - "C:/Windows/System32/gcc-ar-14.com"
+      - "C:/Windows/System32/gcc-ar-14.exe"
+      - "C:/Windows/System32/gcc-ar-14"
+      - "C:/Windows/gcc-ar-14.com"
+      - "C:/Windows/gcc-ar-14.exe"
+      - "C:/Windows/gcc-ar-14"
+      - "C:/Windows/System32/wbem/gcc-ar-14.com"
+      - "C:/Windows/System32/wbem/gcc-ar-14.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-14"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-14.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-14.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-14"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-14.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-14.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-14"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-14.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-14.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-14"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-14.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-14.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-14"
+      - "C:/Program Files/dotnet/gcc-ar-14.com"
+      - "C:/Program Files/dotnet/gcc-ar-14.exe"
+      - "C:/Program Files/dotnet/gcc-ar-14"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-14.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-14.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-14"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar-14.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar-14.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar-14"
+      - "C:/Program Files/Git/cmd/gcc-ar-14.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-14.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-14"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-14"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar-14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar-14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar-14"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14"
+      - "C:/msys64/ucrt64/bin/gcc-ar-14.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-14.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-14"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar-14.com"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar-14.exe"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar-14"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.com"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.exe"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar-14"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.com"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.exe"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14"
+      - "C:/raylib/w64devkit/bin/gcc-ar14.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar14.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar14"
+      - "C:/Windows/System32/gcc-ar14.com"
+      - "C:/Windows/System32/gcc-ar14.exe"
+      - "C:/Windows/System32/gcc-ar14"
+      - "C:/Windows/gcc-ar14.com"
+      - "C:/Windows/gcc-ar14.exe"
+      - "C:/Windows/gcc-ar14"
+      - "C:/Windows/System32/wbem/gcc-ar14.com"
+      - "C:/Windows/System32/wbem/gcc-ar14.exe"
+      - "C:/Windows/System32/wbem/gcc-ar14"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar14.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar14.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar14"
+      - "C:/Windows/System32/OpenSSH/gcc-ar14.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar14.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar14"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar14.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar14.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar14"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar14.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar14.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar14"
+      - "C:/Program Files/dotnet/gcc-ar14.com"
+      - "C:/Program Files/dotnet/gcc-ar14.exe"
+      - "C:/Program Files/dotnet/gcc-ar14"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar14.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar14.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar14"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar14.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar14.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ar14"
+      - "C:/Program Files/Git/cmd/gcc-ar14.com"
+      - "C:/Program Files/Git/cmd/gcc-ar14.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar14"
+      - "C:/Program Files/CMake/bin/gcc-ar14.com"
+      - "C:/Program Files/CMake/bin/gcc-ar14.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar14"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar14"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ar14"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14"
+      - "C:/msys64/ucrt64/bin/gcc-ar14.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar14.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar14"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar14.com"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar14.exe"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ar14"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar14.com"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar14.exe"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ar14"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.com"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.exe"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14"
+      - "C:/raylib/w64devkit/bin/gcc-ar.com"
+    found: "C:/raylib/w64devkit/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-14.2"
+      - "gcc-ranlib-14"
+      - "gcc-ranlib14"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-14.2.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-14.2.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-14.2"
+      - "C:/Windows/System32/gcc-ranlib-14.2.com"
+      - "C:/Windows/System32/gcc-ranlib-14.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-14.2"
+      - "C:/Windows/gcc-ranlib-14.2.com"
+      - "C:/Windows/gcc-ranlib-14.2.exe"
+      - "C:/Windows/gcc-ranlib-14.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-14.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-14.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-14.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-14.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-14.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-14.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-14.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-14.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-14.2"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-14.2.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-14.2.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-14.2"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-14.2.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-14.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-14.2.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-14.2"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib-14.2.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib-14.2.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib-14.2"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-14.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-14.2"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.2.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.2.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.2"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib-14.2.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib-14.2.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib-14.2"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.2.com"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.2.exe"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.2"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2.com"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2.exe"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.com"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.exe"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-14.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-14.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-14"
+      - "C:/Windows/System32/gcc-ranlib-14.com"
+      - "C:/Windows/System32/gcc-ranlib-14.exe"
+      - "C:/Windows/System32/gcc-ranlib-14"
+      - "C:/Windows/gcc-ranlib-14.com"
+      - "C:/Windows/gcc-ranlib-14.exe"
+      - "C:/Windows/gcc-ranlib-14"
+      - "C:/Windows/System32/wbem/gcc-ranlib-14.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-14.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-14"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-14.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-14.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-14"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-14.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-14.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-14"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-14.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-14.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-14"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-14.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-14.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-14"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-14"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-14.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-14.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-14"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib-14.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib-14.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib-14"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-14.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-14.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-14"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib-14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib-14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib-14"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-14.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-14.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-14"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.com"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.exe"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.com"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.exe"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.com"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.exe"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib14.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib14.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib14"
+      - "C:/Windows/System32/gcc-ranlib14.com"
+      - "C:/Windows/System32/gcc-ranlib14.exe"
+      - "C:/Windows/System32/gcc-ranlib14"
+      - "C:/Windows/gcc-ranlib14.com"
+      - "C:/Windows/gcc-ranlib14.exe"
+      - "C:/Windows/gcc-ranlib14"
+      - "C:/Windows/System32/wbem/gcc-ranlib14.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib14.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib14"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib14.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib14.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib14"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib14.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib14.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib14"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib14.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib14.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib14"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib14.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib14.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib14"
+      - "C:/Program Files/dotnet/gcc-ranlib14.com"
+      - "C:/Program Files/dotnet/gcc-ranlib14.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib14"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib14.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib14.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib14"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib14.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib14.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/gcc-ranlib14"
+      - "C:/Program Files/Git/cmd/gcc-ranlib14.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib14.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib14"
+      - "C:/Program Files/CMake/bin/gcc-ranlib14.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib14.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib14"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib14"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/gcc-ranlib14"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib14.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib14.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib14"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib14.com"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib14.exe"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/gcc-ranlib14"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14.com"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14.exe"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.com"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.exe"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib.com"
+    found: "C:/raylib/w64devkit/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/willb/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/TetrisClone/bin/"
+      - "C:/Program Files (x86)/TetrisClone/sbin/"
+      - "C:/Program Files (x86)/TetrisClone/"
+    searched_directories:
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/windres.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/windres.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/windres"
+      - "C:/Program Files/dotnet/windres.com"
+      - "C:/Program Files/dotnet/windres.exe"
+      - "C:/Program Files/dotnet/windres"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/windres.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/windres.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/windres"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/windres.com"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/windres.exe"
+      - "C:/Users/willb/OneDrive/Desktop/Apps/cmake-4.0.0-windows-x86_64/cmake-4.0.0-windows-x86_64/bin/windres"
+      - "C:/Program Files/Git/cmd/windres.com"
+      - "C:/Program Files/Git/cmd/windres.exe"
+      - "C:/Program Files/Git/cmd/windres"
+      - "C:/Program Files/CMake/bin/windres.com"
+      - "C:/Program Files/CMake/bin/windres.exe"
+      - "C:/Program Files/CMake/bin/windres"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/windres.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/windres.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/windres"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/windres.com"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/windres.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Python/Python313/windres"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/windres.com"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/windres.exe"
+      - "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/bin/windres"
+      - "C:/msys64/ucrt64/bin/windres.com"
+    found: "C:/msys64/ucrt64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisClone"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/TetrisClone"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/CMakeScratch/TryCompile-ciwszs"
+      binary: "C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/CMakeScratch/TryCompile-ciwszs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/CMakeScratch/TryCompile-ciwszs'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_97643/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_97643.dir\\build.make CMakeFiles/cmTC_97643.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/CMakeScratch/TryCompile-ciwszs'
+        Building CXX object CMakeFiles/cmTC_97643.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\raylib\\w64devkit\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\raylib\\w64devkit\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-14.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_97643.dir\\'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -isysroot C:/raylib/w64devkit/bin/../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_97643.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\willb\\AppData\\Local\\Temp\\ccXTNDKS.s
+        GNU C++17 (GCC) version 14.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include"
+        ignoring nonexistent directory "C:/raylib/w64devkit/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/raylib/w64devkit/bin/../x86_64-w64-mingw32/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 720049954b8563a4f8c39b72b91551d9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_97643.dir\\'
+         as -v -o CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\willb\\AppData\\Local\\Temp\\ccXTNDKS.s
+        GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1
+        COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_97643.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_97643.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\raylib\\w64devkit\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-14.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.0 (GCC) 
+        COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97643.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_97643.'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_97643.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_97643.dir/objects.a --no-whole-archive --out-implib libcmTC_97643.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        collect2 version 14.2.0
+        C:\\msys64\\ucrt64\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_97643.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_97643.dir/objects.a --no-whole-archive --out-implib libcmTC_97643.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.43.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97643.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_97643.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_97643.dir/objects.a
+        C:\\raylib\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_97643.dir/objects.a @CMakeFiles\\cmTC_97643.dir\\objects1.rsp
+        C:\\raylib\\w64devkit\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_97643.dir/objects.a -Wl,--no-whole-archive -o cmTC_97643.exe -Wl,--out-implib,libcmTC_97643.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/CMakeScratch/TryCompile-ciwszs'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/raylib/w64devkit/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed;C:/raylib/w64devkit/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/CMakeScratch/TryCompile-ciwszs']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_97643/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_97643.dir\\build.make CMakeFiles/cmTC_97643.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/CMakeScratch/TryCompile-ciwszs']
+        ignore line: [Building CXX object CMakeFiles/cmTC_97643.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\raylib\\w64devkit\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\raylib\\w64devkit\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-14.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_97643.dir\\']
+        ignore line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -isysroot C:/raylib/w64devkit/bin/../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_97643.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\willb\\AppData\\Local\\Temp\\ccXTNDKS.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/raylib/w64devkit/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/raylib/w64devkit/bin/../x86_64-w64-mingw32/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 720049954b8563a4f8c39b72b91551d9]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_97643.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\willb\\AppData\\Local\\Temp\\ccXTNDKS.s]
+        ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1]
+        ignore line: [COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_97643.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_97643.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_97643.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\raylib\\w64devkit\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-14.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97643.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_97643.']
+        link line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_97643.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_97643.dir/objects.a --no-whole-archive --out-implib libcmTC_97643.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+          arg [C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
+          arg [--sysroot=C:/raylib/w64devkit/bin/../x86_64-w64-mingw32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_97643.exe] ==> ignore
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_97643.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_97643.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [C:\\msys64\\ucrt64\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_97643.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_97643.dir/objects.a --no-whole-archive --out-implib libcmTC_97643.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        linker tool for 'CXX': C:/msys64/ucrt64/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/raylib/w64devkit/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc] ==> [C:/raylib/w64devkit/lib/gcc]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/raylib/w64devkit/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> [C:/raylib/w64devkit/lib]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/raylib/w64devkit/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> [C:/raylib/w64devkit/lib]
+        implicit libs: [stdc++;mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [C:/raylib/w64devkit/x86_64-w64-mingw32/lib/crt2.o;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        implicit dirs: [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0;C:/raylib/w64devkit/lib/gcc;C:/raylib/w64devkit/x86_64-w64-mingw32/lib;C:/raylib/w64devkit/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/msys64/ucrt64/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.43.1
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2472 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2362 (__FetchContent_MakeAvailable_find_package)"
+      - "CMakeLists.txt:17 (FetchContent_MakeAvailable)"
+    name: "raylib"
+    configs:
+      -
+        filename: "raylibConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "raylib-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "5.0"
+      version_complete: "5.0"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "raylib"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/pkgRedirects/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/OneDrive/Desktop/Other Stuff/GitHub/TetrisClone/build/CMakeFiles/pkgRedirects/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/Programs/Python/Python313/Scripts/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/Programs/Python/Python313/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/Programs/Python/Python313/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/Programs/Microsoft VS Code/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/GitHubDesktop/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/GitHubDesktop/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Local/Microsoft/WindowsApps/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/willb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Users\\willb\\OneDrive\\Desktop\\Apps\\cmake-4.0.0-windows-x86_64\\cmake-4.0.0-windows-x86_64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\willb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\willb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "c:\\Users\\willb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisClone"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/TetrisClone"
+...
