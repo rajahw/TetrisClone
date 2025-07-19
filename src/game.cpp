@@ -515,10 +515,10 @@ bool Game::timePassed(double span, double& updateTime) {
 
 void Game::increaseSpeed() {
     if (rowsCleared / speed == 10 && speed < 11 && !speedIncreased) {
+        PlaySound(speedIncreaseSound);
         downInterval -= 0.05;
         scoreMultiplier += 0.05;
         speed++;
         speedIncreased = true;
-        PlaySound(speedIncreaseSound);
     }
 }
