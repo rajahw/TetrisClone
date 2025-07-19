@@ -150,13 +150,13 @@ void Game::reset() {
 }
 
 void Game::loadAssets() {
-    font = LoadFont("build/_deps/raylib-src/examples/text/resources/fonts/alpha_beta.png");
-    music = LoadMusicStream("sfx/music.mp3");
-    loseSound = LoadSound("sfx/loss.wav");
-    openMenu = LoadSound("sfx/menuopen.wav");
-    selectMenu = LoadSound("sfx/menuselect.wav");
-    scoreSound = LoadSound("sfx/score.wav");
-    speedIncreaseSound = LoadSound("sfx/speedincrease.wav");
+    font = LoadFont("assets/alpha_beta.png");
+    music = LoadMusicStream("assets/music.mp3");
+    loseSound = LoadSound("assets/loss.wav");
+    openMenu = LoadSound("assets/menuopen.wav");
+    selectMenu = LoadSound("assets/menuselect.wav");
+    scoreSound = LoadSound("assets/score.wav");
+    speedIncreaseSound = LoadSound("assets/speedincrease.wav");
 }
 
 void Game::unloadAssets() {
