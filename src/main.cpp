@@ -11,9 +11,9 @@ void resizeWindow() {
     if (monitorHeight <= 1440) {
         windowScale = 0.75;
         if (monitorHeight <= 1080) {
-            windowScale = 0.6;
+            windowScale = 0.55;
         }
-        
+
         CloseWindow();
 
         height *= windowScale;

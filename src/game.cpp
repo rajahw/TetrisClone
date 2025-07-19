@@ -288,32 +288,32 @@ void Game::drawGameOver() {
 
 void Game::drawPause() {
     DrawRectangle(0, 0, width * 1.75, height, gameOverScreen);
-    DrawTextEx(font, "BACKSPACE to\nresume", {150, 200}, 150.0f, 4.0f, RED);
-    DrawTextEx(font, "SFX Credits:", {150, 700}, 100.0f, 3.0f, LIGHTGRAY);
-    DrawTextEx(font, "Ethernight Club -- Kevin MacLeod\nAction 01 -- rhodesmas\nAction 02 -- rhodesmas\nDisconnected 01 -- rhodesmas\nUI Button Press -- el_boss\nCancel or No Button Sound -- el_boss", {150, 800}, 70.0f, 2.0f, LIGHTGRAY);
+    DrawTextEx(font, "BACKSPACE to\nresume", {150 * windowScale, 200 * windowScale}, 150.0f * windowScale, 4.0f * windowScale, RED);
+    DrawTextEx(font, "SFX Credits:", {150 * windowScale, 700 * windowScale}, 100.0f * windowScale, 3.0f * windowScale, LIGHTGRAY);
+    DrawTextEx(font, "Ethernight Club -- Kevin MacLeod\nAction 01 -- rhodesmas\nAction 02 -- rhodesmas\nDisconnected 01 -- rhodesmas\nUI Button Press -- el_boss\nCancel or No Button Sound -- el_boss", {150 * windowScale, 800 * windowScale}, 70.0f * windowScale, 2.0f * windowScale, LIGHTGRAY);
 }
 
 void Game::drawPanel() {
-    DrawTextEx(font, "Next Block", {width + 50, 0}, 75.0f, 2.0f, BLACK);
-    DrawRectangle(width + 50, 75, size * 5, size * 5, BLACK);
-    DrawTextEx(font, "Score", {width + 50, 500}, 75.0f, 2.0f, BLACK);
-    DrawTextEx(font, scoreString, {width + 50, 575}, 75.0f, 2.0f, RED);
-    DrawTextEx(font, "High Score", {width + 50, 700}, 75.0f, 2.0f, BLACK);
-    DrawTextEx(font, highScoreString, {width + 50, 775}, 75.0f, 2.0f, RED);
-    DrawTextEx(font, "Rows Cleared", {width + 50, 900}, 75.0f, 2.0f, BLACK);
-    DrawTextEx(font, rowsClearedString, {width + 50, 975}, 75.0f, 2.0f, RED);
-    DrawRectangle(width + 50, 1050, size * 6.5, size * 4.5, BLACK);
-    DrawTextEx(font, "Controls", {width + 60, 1055}, 75.0f, 2.0f, RED);
-    DrawTextEx(font, "Move: A, S, D, Arrows", {width + 60, 1125}, 50.0f, 2.0f, LIGHTGRAY);
-    DrawTextEx(font, "Rotate Left: W, Up, O", {width + 60, 1200}, 50.0f, 2.0f, LIGHTGRAY);
-    DrawTextEx(font, "Rotate Right: P", {width + 60, 1275}, 50.0f, 2.0f, LIGHTGRAY);
-    DrawTextEx(font, "Pause: Backspace", {width + 60, 1350}, 50.0f, 2.0f, LIGHTGRAY);
-    DrawTextEx(font, fpsString, {width + 500, 0}, 75.0f, 2.0f, RED);
+    DrawTextEx(font, "Next Block", {width + 50 * windowScale, 0}, 75.0f * windowScale, 2.0f * windowScale, BLACK);
+    DrawRectangle(width + 50 * windowScale, 75 * windowScale, size * 5, size * 5, BLACK);
+    DrawTextEx(font, "Score", {width + 50 * windowScale, 500 * windowScale}, 75.0f * windowScale, 2.0f * windowScale, BLACK);
+    DrawTextEx(font, scoreString, {width + 50 * windowScale, 575 * windowScale}, 75.0f * windowScale, 2.0f * windowScale, RED);
+    DrawTextEx(font, "High Score", {width + 50 * windowScale, 700 * windowScale}, 75.0f * windowScale, 2.0f * windowScale, BLACK);
+    DrawTextEx(font, highScoreString, {width + 50 * windowScale, 775 * windowScale}, 75.0f * windowScale, 2.0f * windowScale, RED);
+    DrawTextEx(font, "Rows Cleared", {width + 50 * windowScale, 900 * windowScale}, 75.0f * windowScale, 2.0f * windowScale, BLACK);
+    DrawTextEx(font, rowsClearedString, {width + 50 * windowScale, 975 * windowScale}, 75.0f * windowScale, 2.0f * windowScale, RED);
+    DrawRectangle(width + 50 * windowScale, 1050 * windowScale, size * 6.5, size * 4.5, BLACK);
+    DrawTextEx(font, "Controls", {width + 60 * windowScale, 1055 * windowScale}, 75.0f * windowScale, 2.0f * windowScale, RED);
+    DrawTextEx(font, "Move: A, S, D, Arrows", {width + 60 * windowScale, 1125 * windowScale}, 50.0f * windowScale, 2.0f * windowScale, LIGHTGRAY);
+    DrawTextEx(font, "Rotate Left: W, Up, O", {width + 60 * windowScale, 1200 * windowScale}, 50.0f * windowScale, 2.0f * windowScale, LIGHTGRAY);
+    DrawTextEx(font, "Rotate Right: P", {width + 60 * windowScale, 1275 * windowScale}, 50.0f * windowScale, 2.0f * windowScale, LIGHTGRAY);
+    DrawTextEx(font, "Pause: Backspace", {width + 60 * windowScale, 1350 * windowScale}, 50.0f * windowScale, 2.0f * windowScale, LIGHTGRAY);
+    DrawTextEx(font, fpsString, {width + 500 * windowScale, 0}, 75.0f * windowScale, 2.0f * windowScale, RED);
 }
 
 void Game::drawNextBlock() {
-    panelBlock->position.x = width + 50 + (size * 5 - (panelBlock->dimensions * size)) / 2;
-    panelBlock->position.y = 75 + (size * 5 - (panelBlock->dimensions * size)) / 2;
+    panelBlock->position.x = width + 50 * windowScale + (size * 5 - (panelBlock->dimensions * size)) / 2;
+    panelBlock->position.y = 75 * windowScale + (size * 5 - (panelBlock->dimensions * size)) / 2;
     panelBlock->draw();
 }
 
