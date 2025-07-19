@@ -50,8 +50,12 @@ void Game::run() {
         if (!paused) {
             rotateInput(currentBlock);
 
-            if (timePassed(inputInterval, inputUpdate)) {
+            if (timePassed(moveInterval, moveUpdate)) {
                 moveInput(currentBlock);
+            }
+
+            if (!IsKeyDown(KEY_A) && !IsKeyDown(KEY_LEFT) && !IsKeyDown(KEY_D) && !IsKeyDown(KEY_RIGHT)) {
+                blockMoving = false;
             }
 
             if (timePassed(downInterval, downUpdate) && !currentBlock->collidingBottom(arena) && !IsKeyDown(KEY_S) && !IsKeyDown(KEY_DOWN)) {
@@ -190,14 +194,6 @@ void Game::moveInput(const std::unique_ptr<Block>& block) {
             block->moveRight();
         }
     }
-
-    if (!IsKeyDown(KEY_A) && !IsKeyDown(KEY_LEFT) && !IsKeyDown(KEY_D) && !IsKeyDown(KEY_RIGHT) && !IsKeyDown(KEY_S) && !IsKeyDown(KEY_DOWN)) {
-        blockMoving = false;
-    }
-
-    if (!IsKeyDown(KEY_A) && !IsKeyDown(KEY_LEFT) && !IsKeyDown(KEY_D) && !IsKeyDown(KEY_RIGHT) && IsKeyDown(KEY_S) && IsKeyDown(KEY_DOWN)) {
-        blockMoving = false;
-    }
 }
 
 void Game::rotateInput(const std::unique_ptr<Block>& block) {
@@ -227,10 +223,6 @@ void Game::rotateInput(const std::unique_ptr<Block>& block) {
         }
 
         block->clockwiseKick(arena, nextRotation);
-    }
-
-    if (!IsKeyPressed(KEY_O) && !IsKeyPressed(KEY_W) && !IsKeyPressed(KEY_UP) && !IsKeyDown(KEY_P)) {
-        blockMoving = false;
     }
 }
 
@@ -382,6 +374,7 @@ void Game::clearRows() {
         }
 
         if (speedIncreased) {
+            PlaySound(speedIncreaseSound);
             speedIncreased = false;
         }
         
@@ -515,7 +508,6 @@ bool Game::timePassed(double span, double& updateTime) {
 
 void Game::increaseSpeed() {
     if (rowsCleared / speed == 10 && speed < 11 && !speedIncreased) {
-        PlaySound(speedIncreaseSound);
         downInterval -= 0.05;
         scoreMultiplier += 0.05;
         speed++;
