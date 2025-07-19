@@ -6,4 +6,6 @@ This is a Tetris clone built in C++ using raylib. It includes most traditional T
 
 ## Installation
 
-Exerything needed to play the game is included in the repository! To start, clone or download the repo and run the `game.exe` file.
+WIP
+
+[comment]: # (Exerything needed to play the game is included in the repository! To start, clone or download the repo and run the `game.exe` file.)
