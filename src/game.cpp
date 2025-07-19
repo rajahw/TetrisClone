@@ -269,7 +269,7 @@ void Game::updateGrayOut() {
 }
 
 void Game::drawGameOver() {
-    DrawRectangle(0, 0, width + 600, height, gameOverScreen);
+    DrawRectangle(0, 0, width * 1.75, height, gameOverScreen);
     DrawTextEx(font, "GAME OVER!", {150, 500}, 200.0f, 5.0f, RED);
     DrawTextEx(font, "Play again?", {150, 700}, 150.0f, 4.0f, LIGHTGRAY);
 
@@ -287,7 +287,7 @@ void Game::drawGameOver() {
 }
 
 void Game::drawPause() {
-    DrawRectangle(0, 0, width + 600, height, gameOverScreen);
+    DrawRectangle(0, 0, width * 1.75, height, gameOverScreen);
     DrawTextEx(font, "BACKSPACE to\nresume", {150, 200}, 150.0f, 4.0f, RED);
     DrawTextEx(font, "SFX Credits:", {150, 700}, 100.0f, 3.0f, LIGHTGRAY);
     DrawTextEx(font, "Ethernight Club -- Kevin MacLeod\nAction 01 -- rhodesmas\nAction 02 -- rhodesmas\nDisconnected 01 -- rhodesmas\nUI Button Press -- el_boss\nCancel or No Button Sound -- el_boss", {150, 800}, 70.0f, 2.0f, LIGHTGRAY);

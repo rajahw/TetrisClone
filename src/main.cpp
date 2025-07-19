@@ -6,7 +6,7 @@
 
 int main() {
     //Initialize window
-    InitWindow(width + 600, height, "Tetris");
+    InitWindow(width * 1.75, height, "Tetris");
     InitAudioDevice();
     SetTargetFPS(60);
 
