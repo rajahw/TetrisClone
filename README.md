@@ -4,6 +4,6 @@
 
 This is a Tetris clone built in C++ using raylib. It includes most traditional Tetris features such as the Super Rotation System, speed increases, rotations, and more!
 
-## Installation
+## Installation (Windows)
 
-Exerything needed to play the game is included in the repository! To start, clone or download the repo and run the `game.exe` file.
+Exerything needed to play the game on Windows is included in the repository! To start, clone or download the repo and run the `game.exe` file.
