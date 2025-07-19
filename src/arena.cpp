@@ -37,12 +37,3 @@ void Arena::draw() {
         }
     }
 }
-
-void Arena::testPrint() {
-    for (int row = 0; row < rows; row++) {
-        for (int col = 0; col < columns; col++) {
-            std::cout << body[row][col] << " ";
-        }
-        std::cout << "\n";
-    }
-}
