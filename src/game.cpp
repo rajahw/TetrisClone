@@ -150,13 +150,13 @@ void Game::reset() {
 }
 
 void Game::loadAssets() {
-    font = LoadFont("assets/alpha_beta.png");
-    music = LoadMusicStream("assets/music.mp3");
-    loseSound = LoadSound("assets/loss.wav");
-    openMenu = LoadSound("assets/menuopen.wav");
-    selectMenu = LoadSound("assets/menuselect.wav");
-    scoreSound = LoadSound("assets/score.wav");
-    speedIncreaseSound = LoadSound("assets/speedincrease.wav");
+    font = GetFontDefault();
+    music = LoadMusicStream("src/assets/music.mp3");
+    loseSound = LoadSound("src/assets/loss.wav");
+    openMenu = LoadSound("src/assets/menuopen.wav");
+    selectMenu = LoadSound("src/assets/menuselect.wav");
+    scoreSound = LoadSound("src/assets/score.wav");
+    speedIncreaseSound = LoadSound("src/assets/speedincrease.wav");
 }
 
 void Game::unloadAssets() {
