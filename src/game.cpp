@@ -134,7 +134,6 @@ void Game::reset() {
     rowsCleared = 0;
     levelCleared = 0;
     score = 0;
-    highScore = 0;
     speed = 1;
     fps = 0;
     scoreMultiplier = 1.0;
@@ -374,11 +373,12 @@ void Game::clearRows() {
         }
 
         if (speedIncreased) {
-            PlaySound(speedIncreaseSound);
             speedIncreased = false;
         }
-        
-        if (!speedIncreased) {
+
+        if (static_cast<float>((rowsCleared + numCleared)) / speed >= 10 && static_cast<float>(rowsCleared) / speed <= 10) {
+            PlaySound(speedIncreaseSound);
+        } else {
             PlaySound(scoreSound);
         }
 
