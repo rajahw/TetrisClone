@@ -42,6 +42,9 @@ class Game {
         Sound selectMenu;
         Sound scoreSound;
         Sound speedIncreaseSound;
+        Color gameOverScreen = {0, 0, 0, 200};
+        Rectangle yesHitbox = {130.0f * windowScale, 900.0f * windowScale, 220.0f * windowScale, 90.0f * windowScale};
+        Rectangle noHitbox = {130.0f * windowScale, 1000.0f * windowScale, 160.0f * windowScale, 90.0f * windowScale};
 
         Game();
         void run();

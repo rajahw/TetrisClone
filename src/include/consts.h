@@ -26,9 +26,6 @@ inline double clearUpdate = 0.0;
 inline double clearInterval = 0.5;
 inline double scoreMultiplier = 1.0;
 
-inline Color gameOverScreen = {0, 0, 0, 200};
-inline Rectangle yesHitbox = {130.0f, 900.0f, 220.0f, 90.0f};
-inline Rectangle noHitbox = {130.0f, 1000.0f, 160.0f, 90.0f};
 inline std::array<std::array<Offset, 5>, 4> counterOffset = {{
 {{{0, 0}, {1, 0}, {1, -1}, {0, 2}, {1, 2}}},
 {{{0, 0}, {-1, 0}, {-1, 1}, {0, -2}, {-1, -2}}},

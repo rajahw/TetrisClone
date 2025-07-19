@@ -21,6 +21,9 @@ Game::Game() {
     loseSoundPlayed = false;
     blocks = {0, 1, 2, 3, 4, 5, 6};
     mouseLocation = {0.0f, 0.0f};
+    gameOverScreen = {0, 0, 0, 200};
+    yesHitbox = {130.0f * windowScale, 900.0f * windowScale, 220.0f * windowScale, 90.0f * windowScale};
+    noHitbox = {130.0f * windowScale, 1000.0f * windowScale, 160.0f * windowScale, 90.0f * windowScale};
     firstBlock();
 }
 
@@ -269,19 +272,19 @@ void Game::updateGrayOut() {
 
 void Game::drawGameOver() {
     DrawRectangle(0, 0, width * 1.75, height, gameOverScreen);
-    DrawTextEx(font, "GAME OVER!", {150, 500}, 200.0f, 5.0f, RED);
-    DrawTextEx(font, "Play again?", {150, 700}, 150.0f, 4.0f, LIGHTGRAY);
+    DrawTextEx(font, "GAME OVER!", {150 * windowScale, 500 * windowScale}, 200.0f * windowScale, 5.0f * windowScale, RED);
+    DrawTextEx(font, "Play again?", {150 * windowScale, 700 * windowScale}, 150.0f * windowScale, 4.0f * windowScale, LIGHTGRAY);
 
     if (CheckCollisionPointRec(mouseLocation, yesHitbox)) {
-        DrawTextEx(font, "YES", {150, 900}, 100.0f, 3.0f, RED);
+        DrawTextEx(font, "YES", {150 * windowScale, 900 * windowScale}, 100.0f * windowScale, 3.0f * windowScale, RED);
     } else {
-        DrawTextEx(font, "YES", {150, 900}, 100.0f, 3.0f, LIGHTGRAY);
+        DrawTextEx(font, "YES", {150 * windowScale, 900 * windowScale}, 100.0f * windowScale, 3.0f * windowScale, LIGHTGRAY);
     }
 
     if (CheckCollisionPointRec(mouseLocation, noHitbox)) {
-        DrawTextEx(font, "NO", {150, 1000}, 100.0f, 3.0f, RED);
+        DrawTextEx(font, "NO", {150 * windowScale, 1000 * windowScale}, 100.0f * windowScale, 3.0f * windowScale, RED);
     } else {
-        DrawTextEx(font, "NO", {150, 1000}, 100.0f, 3.0f, LIGHTGRAY);
+        DrawTextEx(font, "NO", {150 * windowScale, 1000 * windowScale}, 100.0f * windowScale, 3.0f * windowScale, LIGHTGRAY);
     }
 }
 
