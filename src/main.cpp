@@ -4,9 +4,30 @@
 #include "include/tetros.h"
 #include "include/game.h"
 
+void resizeWindow() {
+    int monitor = GetCurrentMonitor();
+    int monitorHeight = GetMonitorHeight(monitor);
+
+    if (monitorHeight <= 1440) {
+        windowScale = 0.75;
+        if (monitorHeight <= 1080) {
+            windowScale = 0.6;
+        }
+        
+        CloseWindow();
+
+        height *= windowScale;
+        width = height / 2;
+        size = width / 10;
+
+        InitWindow(width * 1.75, height, "Game");
+    }
+}
+
 int main() {
     //Initialize window
-    InitWindow(width * 1.75, height, "Tetris");
+    InitWindow(width * 1.75, height, "Game");
+    resizeWindow();
     InitAudioDevice();
     SetTargetFPS(60);
 

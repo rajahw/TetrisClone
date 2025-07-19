@@ -12,9 +12,10 @@ struct Offset {
 
 inline const int rows = 20;
 inline const int columns = 10;
-inline const int width = 800;
-inline const int height = 1600;
-inline const int size = 80;
+inline float width = 800.0;
+inline float height = 1600.0;
+inline float size = 80.0;
+inline float windowScale = 1.0;
 inline double moveUpdate = 0.0;
 inline double moveInterval = 0.06;
 inline double downUpdate = 0.0;
@@ -26,8 +27,8 @@ inline double clearInterval = 0.5;
 inline double scoreMultiplier = 1.0;
 
 inline Color gameOverScreen = {0, 0, 0, 200};
-inline Rectangle yesHitbox = {130, 900, 220, 90};
-inline Rectangle noHitbox = {130, 1000, 160, 90};
+inline Rectangle yesHitbox = {130.0f, 900.0f, 220.0f, 90.0f};
+inline Rectangle noHitbox = {130.0f, 1000.0f, 160.0f, 90.0f};
 inline std::array<std::array<Offset, 5>, 4> counterOffset = {{
 {{{0, 0}, {1, 0}, {1, -1}, {0, 2}, {1, 2}}},
 {{{0, 0}, {-1, 0}, {-1, 1}, {0, -2}, {-1, -2}}},
