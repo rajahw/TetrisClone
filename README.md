@@ -26,4 +26,4 @@ Run CMake using a flag for your compiler of choice (Example shows g++ using MinG
 Build the executable<br>
 ```mingw32-make```
 
-### If you followed the steps correctly, the game executable 'TetrisClone.exe' should be in your build directory.
+### If you followed the steps correctly, the game executable `TetrisClone.exe` should be in your build directory.
