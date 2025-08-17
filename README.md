@@ -14,6 +14,7 @@ Download or clone the repository into your directory of choice.<br>
 
 Create a build directory inside the project directory `TetrisClone`.<br>
 ```
+cd tetrisclone
 mkdir build
 cd build
 ```
