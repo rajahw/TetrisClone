@@ -13,10 +13,8 @@ Download or clone the repository into your directory of choice.<br>
 ``git clone https://github.com/rajahw/TetrisClone``
 
 Create a build directory.<br>
-``
-mkdir build<br>
-cd build
-``
+``mkdir build``<br>
+``cd build``
 
 ### The next two steps apply to those using MinGW on Windows. Adjust the CMake and build commands for your operating system and compiler.
 
