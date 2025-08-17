@@ -9,21 +9,21 @@ This is a Tetris clone built in C++ using raylib. It includes most traditional T
 - C++ 17 or above
 
 ## Installation
-Download or clone the repository into your directory of choice.\
+Download or clone the repository into your directory of choice.<br>
 ``git clone https://github.com/rajahw/TetrisClone``
 
-Create a build directory.\
+Create a build directory.<br>
 ``
-mkdir build\
+mkdir build<br>
 cd build
 ``
 
 ### The next two steps apply to those using MinGW on Windows. Adjust the CMake and build commands for your operating system and compiler.
 
-Run CMake using a flag for your compiler of choice (Example shows g++ using MinGW).\
+Run CMake using a flag for your compiler of choice (Example shows g++ using MinGW).<br>
 ``cmake .. -G "MinGW Makefiles"``
 
-Build the executable\
+Build the executable<br>
 ``mingw32-make``
 
 ### If you followed the steps correctly, the game executable 'TetrisClone.exe' should be in your build directory.
