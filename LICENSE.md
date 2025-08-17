@@ -38,4 +38,4 @@ Disconnected 01 by rhodesmas -- https://freesound.org/s/322895/ -- License: Attr
 
 UI Button Press by el_boss -- https://freesound.org/s/788611/ -- License: Creative Commons 0
 
-Cancel or No Button Sound by el_boss -- https://freesound.org/s/788602/ -- License: Creative Commons 0 
+Cancel or No Button Sound by el_boss -- https://freesound.org/s/788602/ -- License: Creative Commons 0
