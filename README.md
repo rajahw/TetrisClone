@@ -10,7 +10,7 @@ This is a Tetris clone built in C++ using raylib. It includes most traditional T
 - C++ 17 or above
 - OpenGL Development Libraries
 
-### Use the below commands in the terminal to install the dependencies if you don't already have them.
+### Use the below commands in the terminal to install the dependencies if you don't already have them. (Linux and macOS)
 ```
 sudo apt update
 sudo apt install git
