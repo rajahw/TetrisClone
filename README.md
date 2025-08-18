@@ -25,7 +25,7 @@ cd build
 Run CMake.<br>
 ```cmake ..```
 
-Build the executable<br>
+Build the executable.<br>
 ```make```
 
 ### If you followed the steps correctly, the game executable `TetrisClone.exe` should be in your build directory.
