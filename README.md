@@ -2,8 +2,10 @@
 
 This is a Tetris clone built in C++ using raylib. It includes many traditional Tetris features such as:
 - Super Rotation System (360 rotation and wall kicks)
-- Block soft dropping
-- 
+- Score bonuses for soft dropping and multiple row clearing
+- Randomized cycling block selection
+- Pausing, resuming, and restarting the game
+- Score saving between rounds
 
 ![example image](example.png)
 
@@ -21,7 +23,7 @@ Download and install [git](https://git-scm.com/downloads/win), [CMake](https://c
 
 <b>You may need to add git, CMake, and your compiler to your ``PATH`` if it wasn't done during installation.<b><br>
 
-#### Linux (Adjust for non Ubuntu-based platforms)
+### Linux (Adjust for non Ubuntu-based platforms)
 
 ```
 sudo apt update
@@ -56,5 +58,11 @@ Run CMake.<br>
 
 Build the executable.<br>
 ```make```
+
+<b>Windows: If you are using MinGW, adjust the CMake and build commands like so:<b><br>
+```
+cmake -G "MinGW Makefiles" ..
+mingw32-make
+```
 
 ### If you followed the steps correctly, the game executable `TetrisClone.exe` should be in your build directory.
