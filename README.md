@@ -7,6 +7,7 @@ This is a Tetris clone built in C++ using raylib. It includes most traditional T
 ## Prerequisites
 - CMake
 - C++ 17 or above
+- OpenGL Development Libraries
 
 ## Installation
 Download or clone the repository into your directory of choice.<br>
