@@ -21,7 +21,7 @@ cd build
 
 ### The next two steps apply to those using MinGW on Windows. Adjust the CMake and build commands for your operating system and compiler.
 
-Run CMake using a flag for your compiler of choice (Example shows g++ using MinGW).<br>
+Run CMake using a flag for your compiler of choice if necessary (Example shows g++ using MinGW).<br>
 ```cmake .. -G "MinGW Makefiles"```
 
 Build the executable<br>
