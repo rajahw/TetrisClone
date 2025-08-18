@@ -4,10 +4,22 @@ This is a Tetris clone built in C++ using raylib. It includes most traditional T
 
 ![example image](example.png)
 
-## Prerequisites
+## Dependencies
+- Git
 - CMake
 - C++ 17 or above
 - OpenGL Development Libraries
+
+### Use the below commands in the terminal if you don't have the dependencies.
+```
+sudo apt update
+
+sudo apt install git
+
+sudo apt install cmake
+
+sudo apt install libasound2-dev mesa-common-dev libx11-dev libxrandr-dev libxi-dev xorg-dev libgl1-mesa-dev libglu1-mesa-dev
+```
 
 ## Installation
 Download or clone the repository into your directory of choice.<br>
