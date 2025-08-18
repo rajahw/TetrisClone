@@ -20,12 +20,12 @@ mkdir build
 cd build
 ```
 
-### Adjust the CMake and build commands for your operating system and compiler.
+### Adjust the CMake and build command flags if needed.
 
-Run CMake using a flag for your compiler of choice if necessary (Example shows g++ using MinGW).<br>
-```cmake .. -G "MinGW Makefiles"```
+Run CMake.<br>
+```cmake ..```
 
 Build the executable<br>
-```mingw32-make```
+```make```
 
 ### If you followed the steps correctly, the game executable `TetrisClone.exe` should be in your build directory.
