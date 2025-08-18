@@ -12,7 +12,7 @@ This is a Tetris clone built in C++ using raylib. It includes most traditional T
 Download or clone the repository into your directory of choice.<br>
 ```git clone https://github.com/rajahw/TetrisClone.git```
 
-Create a build directory inside the project directory `TetrisClone`.<br>
+Create a build directory inside the project directory `TetrisClone` (Directory names may be cases sensitive).<br>
 ```
 cd tetrisclone
 mkdir build
