@@ -6,6 +6,7 @@ This is a Tetris clone built in C++ using raylib. It includes many traditional T
 - Randomized cycling block selection
 - Pausing, resuming, and restarting the game
 - Score saving between rounds
+- SFX and music
 
 ![example image](example.png)
 
