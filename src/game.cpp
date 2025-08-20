@@ -85,7 +85,6 @@ void Game::run() {
                 highScore = score;
             }
 
-            increaseSpeed();
             updatePanel();
 
             arena.draw();
@@ -379,7 +378,7 @@ void Game::clearRows() {
             speedIncreased = false;
         }
 
-        if (static_cast<float>((rowsCleared + numCleared)) / speed >= 10 && speed <= 10) {
+        if (static_cast<float>(rowsCleared + numCleared) / speed >= 10 && speed <= 10 && !speedIncreased) {
             PlaySound(speedIncreaseSound);
             increaseSpeed();
         } else {
@@ -511,10 +510,8 @@ bool Game::timePassed(double span, double& updateTime) {
 }
 
 void Game::increaseSpeed() {
-    if (rowsCleared / speed == 10 && speed < 11 && !speedIncreased) {
-        downInterval -= 0.05;
-        scoreMultiplier += 0.05;
-        speed++;
-        speedIncreased = true;
-    }
+    downInterval -= 0.05;
+    scoreMultiplier += 0.05;
+    speed++;
+    speedIncreased = true;
 }
