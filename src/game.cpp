@@ -379,7 +379,7 @@ void Game::clearRows() {
             speedIncreased = false;
         }
 
-        if (static_cast<float>((rowsCleared + numCleared)) / speed >= 10 && static_cast<float>(rowsCleared) / speed <= 10) {
+        if (static_cast<float>((rowsCleared + numCleared)) / speed >= 10 && speed <= 10) {
             PlaySound(speedIncreaseSound);
             increaseSpeed();
         } else {
