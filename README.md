@@ -60,7 +60,7 @@ Run CMake.<br>
 Build the executable.<br>
 ```make```
 
-<b>Windows: If you are using MinGW, adjust the CMake and build commands like so:<b><br>
+<b>If you are using MinGW, adjust the CMake and build commands like so:<b><br>
 ```
 cmake -G "MinGW Makefiles" ..
 mingw32-make
