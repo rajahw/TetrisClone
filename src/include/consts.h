@@ -50,3 +50,12 @@ inline std::array<std::array<Offset, 5>, 4> IClockwiseOffset = {{
 {{{0, 0}, {1, 0}, {1, 1}, {0, -2}, {1, -2}}},
 {{{0, 0}, {1, 0}, {-2, 0}, {1, -2}, {-2, 1}}}
 }};
+enum class BlockEnum : int {
+    O = 0,
+    I = 1,
+    S = 2,
+    Z = 3,
+    L = 4,
+    J = 5,
+    T = 6
+};
