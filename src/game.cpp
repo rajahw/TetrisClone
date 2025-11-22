@@ -1,9 +1,9 @@
 #include "include/game.h"
 
 Game::Game() {
-    blockType = 0;
-    nextBlockType = 0;
-    blockBag = 0;
+    blockType = BlockEnum::O;
+    nextBlockType = BlockEnum::O;
+    blockBag = BlockEnum::O;
     numCleared = 0;
     rowsCleared = 0;
     levelCleared = 0;
@@ -19,7 +19,7 @@ Game::Game() {
     speedIncreased = false;
     grayOutUpdated = false;
     loseSoundPlayed = false;
-    blocks = {0, 1, 2, 3, 4, 5, 6};
+    blocks = {BlockEnum::O, BlockEnum::I, BlockEnum::S, BlockEnum::Z, BlockEnum::L, BlockEnum::J, BlockEnum::T};
     mouseLocation = {0.0f, 0.0f};
     gameOverScreen = {0, 0, 0, 200};
     yesHitbox = {130.0f * windowScale, 900.0f * windowScale, 220.0f * windowScale, 90.0f * windowScale};
@@ -129,9 +129,9 @@ void Game::run() {
 }
 
 void Game::reset() {
-    blockType = 0;
-    nextBlockType = 0;
-    blockBag = 0;
+    blockType = BlockEnum::O;
+    nextBlockType = BlockEnum::O;
+    blockBag = BlockEnum::O;
     numCleared = 0;
     rowsCleared = 0;
     levelCleared = 0;
@@ -148,7 +148,7 @@ void Game::reset() {
     speedIncreased = false;
     grayOutUpdated = false;
     loseSoundPlayed = false;
-    blocks = {0, 1, 2, 3, 4, 5, 6};
+    blocks = {BlockEnum::O, BlockEnum::I, BlockEnum::S, BlockEnum::Z, BlockEnum::L, BlockEnum::J, BlockEnum::T};
     arena.initialize();
     grayOut.initialize();
     firstBlock();
@@ -232,25 +232,25 @@ void Game::updateArena() {
         for (int col = 0; col < currentBlock->dimensions; col++) {
             if (currentBlock->body[currentBlock->rotation][row][col] == '#') {
                 switch (blockType) {
-                    case 0:
+                    case BlockEnum::O:
                         arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'O';
                     break;
-                    case 1:
+                    case BlockEnum::I:
                         arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'I';
                     break;
-                    case 2:
+                    case BlockEnum::S:
                         arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'S';
                     break;
-                    case 3:
+                    case BlockEnum::Z:
                         arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'Z';
                     break;
-                    case 4:
+                    case BlockEnum::L:
                         arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'L';
                     break;
-                    case 5:
+                    case BlockEnum::J:
                         arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'J';
                     break;
-                    case 6:
+                    case BlockEnum::T:
                         arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'T';
                     break;
                 }
@@ -398,14 +398,12 @@ bool Game::gameIsOver() {
     return false;
 }
 
-void Game::getNextBlock(int& type) {
-    if (blocks.empty()) {
-        blocks = {0, 1, 2, 3, 4, 5, 6};
-    }
+void Game::getNextBlock(BlockEnum& type) {
+    if (blocks.empty()) {blocks = {BlockEnum::O, BlockEnum::I, BlockEnum::S, BlockEnum::Z, BlockEnum::L, BlockEnum::J, BlockEnum::T};}
 
     int index = GetRandomValue(0, blocks.size() - 1);
 
-    type = blocks.at(index);
+    type = blocks[index];
 
     blocks.erase(blocks.begin() + index);
 }
@@ -414,25 +412,25 @@ void Game::firstBlock() {
     getNextBlock(blockBag);
     blockType = blockBag;
     switch (blockType) {
-        case 0:
+        case BlockEnum::O:
             currentBlock = std::make_unique<OBlock>();
         break;
-        case 1:
+        case BlockEnum::I:
             currentBlock = std::make_unique<IBlock>();
         break;
-        case 2:
+        case BlockEnum::S:
             currentBlock = std::make_unique<SBlock>();
         break;
-        case 3:
+        case BlockEnum::Z:
             currentBlock = std::make_unique<ZBlock>();
         break;
-        case 4:
+        case BlockEnum::L:
             currentBlock = std::make_unique<LBlock>();
         break;
-        case 5:
+        case BlockEnum::J:
             currentBlock = std::make_unique<JBlock>();
         break;
-        case 6:
+        case BlockEnum::T:
             currentBlock = std::make_unique<TBlock>();
         break;
     }
@@ -440,25 +438,25 @@ void Game::firstBlock() {
     getNextBlock(blockBag);
     nextBlockType = blockBag;
     switch (nextBlockType) {
-        case 0:
+        case BlockEnum::O:
             nextBlock = std::make_unique<OBlock>();
         break;
-        case 1:
+        case BlockEnum::I:
             nextBlock = std::make_unique<IBlock>();
         break;
-        case 2:
+        case BlockEnum::S:
             nextBlock = std::make_unique<SBlock>();
         break;
-        case 3:
+        case BlockEnum::Z:
             nextBlock = std::make_unique<ZBlock>();
         break;
-        case 4:
+        case BlockEnum::L:
             nextBlock = std::make_unique<LBlock>();
         break;
-        case 5:
+        case BlockEnum::J:
             nextBlock = std::make_unique<JBlock>();
         break;
-        case 6:
+        case BlockEnum::T:
             nextBlock = std::make_unique<TBlock>();
         break;
     }
@@ -473,25 +471,25 @@ void Game::spawnBlock() {
     getNextBlock(blockBag);
     nextBlockType = blockBag;
     switch (nextBlockType) {
-        case 0:
+        case BlockEnum::O:
             nextBlock = std::make_unique<OBlock>();
         break;
-        case 1:
+        case BlockEnum::I:
             nextBlock = std::make_unique<IBlock>();
         break;
-        case 2:
+        case BlockEnum::S:
             nextBlock = std::make_unique<SBlock>();
         break;
-        case 3:
+        case BlockEnum::Z:
             nextBlock = std::make_unique<ZBlock>();
         break;
-        case 4:
+        case BlockEnum::L:
             nextBlock = std::make_unique<LBlock>();
         break;
-        case 5:
+        case BlockEnum::J:
             nextBlock = std::make_unique<JBlock>();
         break;
-        case 6:
+        case BlockEnum::T:
             nextBlock = std::make_unique<TBlock>();
         break;
     }

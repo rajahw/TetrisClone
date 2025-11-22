@@ -26,27 +26,15 @@ std::unique_ptr<Block> OBlock::clone() {
 }
 
 bool OBlock::atLeft() {
-    if (arenaX == 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return (arenaX == 0);
 }
 
 bool OBlock::atRight() {
-    if (arenaX + 1 == columns - 1) {
-        return true;
-    } else {
-        return false;
-    }
+    return (arenaX + 1 == columns - 1);
 }
 
 bool OBlock::atBottom() {
-    if (arenaY + 1 == rows - 1) {
-        return true;
-    } else {
-        return false;
-    }
+    return (arenaY + 1 == rows - 1);
 }
 
 void OBlock::counterKick(const Arena& arena, int rotation) {}
@@ -89,32 +77,14 @@ std::unique_ptr<Block> IBlock::clone() {
 bool IBlock::atLeft() {
     switch (rotation) {
         case 0:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+        case 2:
+            return (arenaX == 0);
         break;
         case 1:
-            if (arenaX + 2 == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 2:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 2 == 0);
         break;
         case 3:
-            if (arenaX + 1 == 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == 0);
         break;
         default:
             return false;
@@ -125,32 +95,14 @@ bool IBlock::atLeft() {
 bool IBlock::atRight() {
     switch (rotation) {
         case 0:
-            if (arenaX + 3 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+        case 2:
+            return (arenaX + 3 == columns - 1);
         break;
         case 1:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 2:
-            if (arenaX + 3 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 2 == columns - 1);
         break;
         case 3:
-            if (arenaX + 1 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -161,32 +113,14 @@ bool IBlock::atRight() {
 bool IBlock::atBottom() {
     switch (rotation) {
         case 0:
-            if (arenaY + 1 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 1 == rows - 1);
         break;
         case 1:
-            if (arenaY + 3 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+        case 3:
+            return (arenaY + 3 == rows - 1);
         break;
         case 2:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 3:
-            if (arenaY + 3 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 2 == rows - 1);
         break;
         default:
             return false;
@@ -252,32 +186,12 @@ std::unique_ptr<Block> SBlock::clone() {
 bool SBlock::atLeft() {
     switch (rotation) {
         case 0:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+        case 2:
+        case 3:
+            return (arenaX == 0);
         break;
         case 1:
-            if (arenaX + 1 == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 2:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 3:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == 0);
         break;
         default:
             return false;
@@ -288,32 +202,12 @@ bool SBlock::atLeft() {
 bool SBlock::atRight() {
     switch (rotation) {
         case 0:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 1:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 2 == columns - 1);
         break;
         case 3:
-            if (arenaX + 1 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -324,32 +218,12 @@ bool SBlock::atRight() {
 bool SBlock::atBottom() {
     switch (rotation) {
         case 0:
-            if (arenaY + 1 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 1 == rows - 1);
         break;
         case 1:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 3:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 2 == rows - 1);
         break;
         default:
             return false;
@@ -389,32 +263,12 @@ std::unique_ptr<Block> ZBlock::clone() {
 bool ZBlock::atLeft() {
     switch (rotation) {
         case 0:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+        case 2:
+        case 3:
+            return (arenaX == 0);
         break;
         case 1:
-            if (arenaX + 1 == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 2:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 3:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == 0);
         break;
         default:
             return false;
@@ -425,32 +279,12 @@ bool ZBlock::atLeft() {
 bool ZBlock::atRight() {
     switch (rotation) {
         case 0:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 1:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 2 == columns - 1);
         break;
         case 3:
-            if (arenaX + 1 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -461,32 +295,12 @@ bool ZBlock::atRight() {
 bool ZBlock::atBottom() {
     switch (rotation) {
         case 0:
-            if (arenaY + 1 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 1 == rows - 1);
         break;
         case 1:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 3:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 2 == rows - 1);
         break;
         default:
             return false;
@@ -526,32 +340,12 @@ std::unique_ptr<Block> LBlock::clone() {
 bool LBlock::atLeft() {
     switch (rotation) {
         case 0:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+        case 2:
+        case 3:
+            return (arenaX == 0);
         break;
         case 1:
-            if (arenaX + 1 == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 2:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 3:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == 0);
         break;
         default:
             return false;
@@ -562,32 +356,12 @@ bool LBlock::atLeft() {
 bool LBlock::atRight() {
     switch (rotation) {
         case 0:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 1:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 2 == columns - 1);
         break;
         case 3:
-            if (arenaX + 1 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -598,32 +372,12 @@ bool LBlock::atRight() {
 bool LBlock::atBottom() {
     switch (rotation) {
         case 0:
-            if (arenaY + 1 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 1 == rows - 1);
         break;
         case 1:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 3:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 2 == rows - 1);
         break;
         default:
             return false;
@@ -664,32 +418,12 @@ std::unique_ptr<Block> JBlock::clone() {
 bool JBlock::atLeft() {
     switch (rotation) {
         case 0:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 1:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX == 0);
         break;
         case 3:
-            if (arenaX + 1 == 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == 0);
         break;
         default:
             return false;
@@ -700,32 +434,12 @@ bool JBlock::atLeft() {
 bool JBlock::atRight() {
     switch (rotation) {
         case 0:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+        case 2:
+        case 3:
+            return (arenaX + 2 == columns - 1);
         break;
         case 1:
-            if (arenaX + 1 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 2:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 3:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -736,32 +450,12 @@ bool JBlock::atRight() {
 bool JBlock::atBottom() {
     switch (rotation) {
         case 0:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 1:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+        case 3:
+            return (arenaY + 2 == rows - 1);
         break;
         case 2:
-            if (arenaY + 1 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 3:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 1 == rows - 1);
         break;
         default:
             return false;
@@ -801,32 +495,12 @@ std::unique_ptr<Block> TBlock::clone() {
 bool TBlock::atLeft() {
     switch (rotation) {
         case 0:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+        case 2:
+        case 3:
+            return (arenaX == 0);
         break;
         case 1:
-            if (arenaX + 1 == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 2:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
-        case 3:
-            if (arenaX == 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == 0);
         break;
         default:
             return false;
@@ -837,32 +511,12 @@ bool TBlock::atLeft() {
 bool TBlock::atRight() {
     switch (rotation) {
         case 0:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 1:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaX + 2 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 2 == columns - 1);
         break;
         case 3:
-            if (arenaX + 1 == columns - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -873,32 +527,12 @@ bool TBlock::atRight() {
 bool TBlock::atBottom() {
     switch (rotation) {
         case 0:
-            if (arenaY + 1 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 1 == rows - 1);
         break;
         case 1:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 2:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
-        break;
         case 3:
-            if (arenaY + 2 == rows - 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return (arenaY + 2 == rows - 1);
         break;
         default:
             return false;

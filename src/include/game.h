@@ -8,9 +8,9 @@ class Game {
     public:
         Arena arena;
         Arena grayOut;
-        int blockType;
-        int nextBlockType;
-        int blockBag;
+        BlockEnum blockType;
+        BlockEnum nextBlockType;
+        BlockEnum blockBag;
         int numCleared;
         int rowsCleared;
         int levelCleared;
@@ -30,7 +30,7 @@ class Game {
         bool speedIncreased;
         bool grayOutUpdated;
         bool loseSoundPlayed;
-        std::vector<int> blocks;
+        std::vector<BlockEnum> blocks;
         std::unique_ptr<Block> currentBlock;
         std::unique_ptr<Block> nextBlock;
         std::unique_ptr<Block> panelBlock;
@@ -63,7 +63,7 @@ class Game {
         bool rowFull(int);
         void clearRows();
         bool gameIsOver();
-        void getNextBlock(int&);
+        void getNextBlock(BlockEnum&);
         void firstBlock();
         void spawnBlock();
         bool timePassed(double, double&);
