@@ -107,7 +107,9 @@ bool Block::rotationIsPossible(const Arena& arena, const Offset& offset, int rot
             newX = arenaX + offset.x + col;
             newY = arenaY + offset.y + row;
             if (body[rotation][row][col] == '#') {
-                if (arena.body[newY][newX] != 'X' || newX < 0 || newX >= columns || newY >= rows) {
+                if (newX < 0 || newX >= columns || newY >= rows) {
+                    return false;
+                } else if (arena.body[newY][newX] != 'X') {
                     return false;
                 }
             }
