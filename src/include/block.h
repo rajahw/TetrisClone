@@ -9,8 +9,8 @@ class Block {
         Color color;
         int dimensions;
         int rotation;
-        int arenaX;
-        int arenaY;
+        int spawnX;
+        int spawnY;
 
         Block();
         void moveLeft();
@@ -26,7 +26,7 @@ class Block {
         bool collidingLeft(const Arena&);
         bool collidingRight(const Arena&);
         bool collidingBottom(const Arena&);
-        bool rotationIsPossible(const Arena&, const Offset&, int);
-        virtual void counterKick(const Arena&, int);
-        virtual void clockwiseKick(const Arena&, int);
+        bool rotationIsPossible(const Arena&, const Offset&);
+        virtual void counterKick(const Arena&);
+        virtual void clockwiseKick(const Arena&);
 };

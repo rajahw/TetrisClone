@@ -9,8 +9,8 @@ class OBlock : public Block {
         bool atLeft() override;
         bool atRight() override;
         bool atBottom() override;
-        void counterKick(const Arena&, int) override;
-        void clockwiseKick(const Arena&, int) override;
+        void counterKick(const Arena&) override;
+        void clockwiseKick(const Arena&) override;
 };
 
 class IBlock : public Block {
@@ -20,8 +20,8 @@ class IBlock : public Block {
         bool atLeft() override;
         bool atRight() override;
         bool atBottom() override;
-        void counterKick(const Arena&, int) override;
-        void clockwiseKick(const Arena&, int) override;
+        void counterKick(const Arena&) override;
+        void clockwiseKick(const Arena&) override;
 };
 
 class SBlock : public Block {

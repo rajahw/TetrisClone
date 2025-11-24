@@ -200,30 +200,12 @@ void Game::moveInput(const std::unique_ptr<Block>& block) {
 void Game::rotateInput(const std::unique_ptr<Block>& block) {
     if (IsKeyPressed(KEY_O) || IsKeyPressed(KEY_W) || IsKeyPressed(KEY_UP)) {
         blockMoving = true;
-
-        int nextRotation;
-
-        if (block->rotation > 0) {
-            nextRotation = block->rotation - 1;
-        } else {
-            nextRotation = 3;
-        }
-
-        block->counterKick(arena, nextRotation);
+        block->counterKick(arena);
     }
 
     if (IsKeyPressed(KEY_P)) {
         blockMoving = true;
-
-        int nextRotation;
-
-        if (block->rotation < 3) {
-            nextRotation = block->rotation + 1;
-        } else {
-            nextRotation = 0;
-        }
-
-        block->clockwiseKick(arena, nextRotation);
+        block->clockwiseKick(arena);
     }
 }
 
@@ -233,25 +215,25 @@ void Game::updateArena() {
             if (currentBlock->body[currentBlock->rotation][row][col] == '#') {
                 switch (blockType) {
                     case BlockEnum::O:
-                        arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'O';
+                        arena.body[currentBlock->spawnY + row][currentBlock->spawnX + col] = 'O';
                     break;
                     case BlockEnum::I:
-                        arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'I';
+                        arena.body[currentBlock->spawnY + row][currentBlock->spawnX + col] = 'I';
                     break;
                     case BlockEnum::S:
-                        arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'S';
+                        arena.body[currentBlock->spawnY + row][currentBlock->spawnX + col] = 'S';
                     break;
                     case BlockEnum::Z:
-                        arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'Z';
+                        arena.body[currentBlock->spawnY + row][currentBlock->spawnX + col] = 'Z';
                     break;
                     case BlockEnum::L:
-                        arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'L';
+                        arena.body[currentBlock->spawnY + row][currentBlock->spawnX + col] = 'L';
                     break;
                     case BlockEnum::J:
-                        arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'J';
+                        arena.body[currentBlock->spawnY + row][currentBlock->spawnX + col] = 'J';
                     break;
                     case BlockEnum::T:
-                        arena.body[currentBlock->arenaY + row][currentBlock->arenaX + col] = 'T';
+                        arena.body[currentBlock->spawnY + row][currentBlock->spawnX + col] = 'T';
                     break;
                 }
             }

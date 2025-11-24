@@ -16,9 +16,9 @@ OBlock::OBlock() {
     body[3] = {{
     {'#', '#'},
     {'#', '#'}}};
-    arenaX = 4;
-    arenaY = 0;
-    position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
+    spawnX = 4;
+    spawnY = 0;
+    position = {static_cast<float>(size * spawnX), static_cast<float>(size * spawnY)};
 }
 
 std::unique_ptr<Block> OBlock::clone() {
@@ -26,20 +26,20 @@ std::unique_ptr<Block> OBlock::clone() {
 }
 
 bool OBlock::atLeft() {
-    return (arenaX == 0);
+    return (spawnX == 0);
 }
 
 bool OBlock::atRight() {
-    return (arenaX + 1 == columns - 1);
+    return (spawnX + 1 == columns - 1);
 }
 
 bool OBlock::atBottom() {
-    return (arenaY + 1 == rows - 1);
+    return (spawnY + 1 == rows - 1);
 }
 
-void OBlock::counterKick(const Arena& arena, int rotation) {}
+void OBlock::counterKick(const Arena& arena) {}
 
-void OBlock::clockwiseKick(const Arena& arena, int rotation) {}
+void OBlock::clockwiseKick(const Arena& arena) {}
 
 IBlock::IBlock() {
     dimensions = 4;
@@ -65,9 +65,9 @@ IBlock::IBlock() {
     {'X', '#', 'X', 'X'},
     {'X', '#', 'X', 'X'},
     {'X', '#', 'X', 'X'}}};
-    arenaX = 3;
-    arenaY = -1;
-    position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
+    spawnX = 3;
+    spawnY = -1;
+    position = {static_cast<float>(size * spawnX), static_cast<float>(size * spawnY)};
 }
 
 std::unique_ptr<Block> IBlock::clone() {
@@ -78,13 +78,13 @@ bool IBlock::atLeft() {
     switch (rotation) {
         case 0:
         case 2:
-            return (arenaX == 0);
+            return (spawnX == 0);
         break;
         case 1:
-            return (arenaX + 2 == 0);
+            return (spawnX + 2 == 0);
         break;
         case 3:
-            return (arenaX + 1 == 0);
+            return (spawnX + 1 == 0);
         break;
         default:
             return false;
@@ -96,13 +96,13 @@ bool IBlock::atRight() {
     switch (rotation) {
         case 0:
         case 2:
-            return (arenaX + 3 == columns - 1);
+            return (spawnX + 3 == columns - 1);
         break;
         case 1:
-            return (arenaX + 2 == columns - 1);
+            return (spawnX + 2 == columns - 1);
         break;
         case 3:
-            return (arenaX + 1 == columns - 1);
+            return (spawnX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -113,14 +113,14 @@ bool IBlock::atRight() {
 bool IBlock::atBottom() {
     switch (rotation) {
         case 0:
-            return (arenaY + 1 == rows - 1);
+            return (spawnY + 1 == rows - 1);
         break;
         case 1:
         case 3:
-            return (arenaY + 3 == rows - 1);
+            return (spawnY + 3 == rows - 1);
         break;
         case 2:
-            return (arenaY + 2 == rows - 1);
+            return (spawnY + 2 == rows - 1);
         break;
         default:
             return false;
@@ -128,30 +128,32 @@ bool IBlock::atBottom() {
     }
 }
 
-void IBlock::counterKick(const Arena& arena, int rotation) {
+void IBlock::counterKick(const Arena& arena) {
+    rotateCounter();
     for (int test = 0; test < 5; test++) {
-        if (rotationIsPossible(arena, ICounterOffset[rotation][test], rotation)) {
-            arenaX += ICounterOffset[rotation][test].x;
-            arenaY += ICounterOffset[rotation][test].y;
+        if (rotationIsPossible(arena, ICounterOffset[rotation][test])) {
+            spawnX += ICounterOffset[rotation][test].x;
+            spawnY += ICounterOffset[rotation][test].y;
             position.x += ICounterOffset[rotation][test].x * size;
             position.y += ICounterOffset[rotation][test].y * size;
-            rotateCounter();
-            break;
+            return;
         }
     }
+    rotateClockwise();
 }
 
-void IBlock::clockwiseKick(const Arena& arena, int rotation) {
+void IBlock::clockwiseKick(const Arena& arena) {
+    rotateClockwise();
     for (int test = 0; test < 5; test++) {
-        if (rotationIsPossible(arena, IClockwiseOffset[rotation][test], rotation)) {
-            arenaX += IClockwiseOffset[rotation][test].x;
-            arenaY += IClockwiseOffset[rotation][test].y;
+        if (rotationIsPossible(arena, IClockwiseOffset[rotation][test])) {
+            spawnX += IClockwiseOffset[rotation][test].x;
+            spawnY += IClockwiseOffset[rotation][test].y;
             position.x += IClockwiseOffset[rotation][test].x * size;
             position.y += IClockwiseOffset[rotation][test].y * size;
-            rotateClockwise();
-            break;
+            return;
         }
     }
+    rotateCounter();
 }
 
 SBlock::SBlock() {
@@ -174,9 +176,9 @@ SBlock::SBlock() {
     {'#', 'X', 'X'},
     {'#', '#', 'X'},
     {'X', '#', 'X'}}};
-    arenaX = 4;
-    arenaY = 0;
-    position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
+    spawnX = 4;
+    spawnY = 0;
+    position = {static_cast<float>(size * spawnX), static_cast<float>(size * spawnY)};
 }
 
 std::unique_ptr<Block> SBlock::clone() {
@@ -188,10 +190,10 @@ bool SBlock::atLeft() {
         case 0:
         case 2:
         case 3:
-            return (arenaX == 0);
+            return (spawnX == 0);
         break;
         case 1:
-            return (arenaX + 1 == 0);
+            return (spawnX + 1 == 0);
         break;
         default:
             return false;
@@ -204,10 +206,10 @@ bool SBlock::atRight() {
         case 0:
         case 1:
         case 2:
-            return (arenaX + 2 == columns - 1);
+            return (spawnX + 2 == columns - 1);
         break;
         case 3:
-            return (arenaX + 1 == columns - 1);
+            return (spawnX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -218,12 +220,12 @@ bool SBlock::atRight() {
 bool SBlock::atBottom() {
     switch (rotation) {
         case 0:
-            return (arenaY + 1 == rows - 1);
+            return (spawnY + 1 == rows - 1);
         break;
         case 1:
         case 2:
         case 3:
-            return (arenaY + 2 == rows - 1);
+            return (spawnY + 2 == rows - 1);
         break;
         default:
             return false;
@@ -251,9 +253,9 @@ ZBlock::ZBlock() {
     {'X', '#', 'X'},
     {'#', '#', 'X'},
     {'#', 'X', 'X'}}};
-    arenaX = 4;
-    arenaY = 0;
-    position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
+    spawnX = 4;
+    spawnY = 0;
+    position = {static_cast<float>(size * spawnX), static_cast<float>(size * spawnY)};
 }
 
 std::unique_ptr<Block> ZBlock::clone() {
@@ -265,10 +267,10 @@ bool ZBlock::atLeft() {
         case 0:
         case 2:
         case 3:
-            return (arenaX == 0);
+            return (spawnX == 0);
         break;
         case 1:
-            return (arenaX + 1 == 0);
+            return (spawnX + 1 == 0);
         break;
         default:
             return false;
@@ -281,10 +283,10 @@ bool ZBlock::atRight() {
         case 0:
         case 1:
         case 2:
-            return (arenaX + 2 == columns - 1);
+            return (spawnX + 2 == columns - 1);
         break;
         case 3:
-            return (arenaX + 1 == columns - 1);
+            return (spawnX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -295,12 +297,12 @@ bool ZBlock::atRight() {
 bool ZBlock::atBottom() {
     switch (rotation) {
         case 0:
-            return (arenaY + 1 == rows - 1);
+            return (spawnY + 1 == rows - 1);
         break;
         case 1:
         case 2:
         case 3:
-            return (arenaY + 2 == rows - 1);
+            return (spawnY + 2 == rows - 1);
         break;
         default:
             return false;
@@ -328,9 +330,9 @@ LBlock::LBlock() {
     {'#', '#', 'X'},
     {'X', '#', 'X'},
     {'X', '#', 'X'}}};
-    arenaX = 4;
-    arenaY = 0;
-    position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
+    spawnX = 4;
+    spawnY = 0;
+    position = {static_cast<float>(size * spawnX), static_cast<float>(size * spawnY)};
 }
 
 std::unique_ptr<Block> LBlock::clone() {
@@ -342,10 +344,10 @@ bool LBlock::atLeft() {
         case 0:
         case 2:
         case 3:
-            return (arenaX == 0);
+            return (spawnX == 0);
         break;
         case 1:
-            return (arenaX + 1 == 0);
+            return (spawnX + 1 == 0);
         break;
         default:
             return false;
@@ -358,10 +360,10 @@ bool LBlock::atRight() {
         case 0:
         case 1:
         case 2:
-            return (arenaX + 2 == columns - 1);
+            return (spawnX + 2 == columns - 1);
         break;
         case 3:
-            return (arenaX + 1 == columns - 1);
+            return (spawnX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -372,12 +374,12 @@ bool LBlock::atRight() {
 bool LBlock::atBottom() {
     switch (rotation) {
         case 0:
-            return (arenaY + 1 == rows - 1);
+            return (spawnY + 1 == rows - 1);
         break;
         case 1:
         case 2:
         case 3:
-            return (arenaY + 2 == rows - 1);
+            return (spawnY + 2 == rows - 1);
         break;
         default:
             return false;
@@ -406,9 +408,9 @@ JBlock::JBlock() {
     {'X', '#', 'X'},
     {'X', '#', 'X'}
     }};
-    arenaX = 4;
-    arenaY = -1;
-    position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
+    spawnX = 4;
+    spawnY = -1;
+    position = {static_cast<float>(size * spawnX), static_cast<float>(size * spawnY)};
 }
 
 std::unique_ptr<Block> JBlock::clone() {
@@ -420,10 +422,10 @@ bool JBlock::atLeft() {
         case 0:
         case 1:
         case 2:
-            return (arenaX == 0);
+            return (spawnX == 0);
         break;
         case 3:
-            return (arenaX + 1 == 0);
+            return (spawnX + 1 == 0);
         break;
         default:
             return false;
@@ -436,10 +438,10 @@ bool JBlock::atRight() {
         case 0:
         case 2:
         case 3:
-            return (arenaX + 2 == columns - 1);
+            return (spawnX + 2 == columns - 1);
         break;
         case 1:
-            return (arenaX + 1 == columns - 1);
+            return (spawnX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -452,10 +454,10 @@ bool JBlock::atBottom() {
         case 0:
         case 1:
         case 3:
-            return (arenaY + 2 == rows - 1);
+            return (spawnY + 2 == rows - 1);
         break;
         case 2:
-            return (arenaY + 1 == rows - 1);
+            return (spawnY + 1 == rows - 1);
         break;
         default:
             return false;
@@ -483,9 +485,9 @@ TBlock::TBlock() {
     {'X', '#', 'X'},
     {'#', '#', 'X'},
     {'X', '#', 'X'}}};
-    arenaX = 4;
-    arenaY = 0;
-    position = {static_cast<float>(size * arenaX), static_cast<float>(size * arenaY)};
+    spawnX = 4;
+    spawnY = 0;
+    position = {static_cast<float>(size * spawnX), static_cast<float>(size * spawnY)};
 }
 
 std::unique_ptr<Block> TBlock::clone() {
@@ -497,10 +499,10 @@ bool TBlock::atLeft() {
         case 0:
         case 2:
         case 3:
-            return (arenaX == 0);
+            return (spawnX == 0);
         break;
         case 1:
-            return (arenaX + 1 == 0);
+            return (spawnX + 1 == 0);
         break;
         default:
             return false;
@@ -513,10 +515,10 @@ bool TBlock::atRight() {
         case 0:
         case 1:
         case 2:
-            return (arenaX + 2 == columns - 1);
+            return (spawnX + 2 == columns - 1);
         break;
         case 3:
-            return (arenaX + 1 == columns - 1);
+            return (spawnX + 1 == columns - 1);
         break;
         default:
             return false;
@@ -527,12 +529,12 @@ bool TBlock::atRight() {
 bool TBlock::atBottom() {
     switch (rotation) {
         case 0:
-            return (arenaY + 1 == rows - 1);
+            return (spawnY + 1 == rows - 1);
         break;
         case 1:
         case 2:
         case 3:
-            return (arenaY + 2 == rows - 1);
+            return (spawnY + 2 == rows - 1);
         break;
         default:
             return false;
