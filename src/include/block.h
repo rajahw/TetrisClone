@@ -9,8 +9,8 @@ class Block {
         Color color;
         int dimensions;
         int rotation;
-        int spawnX;
-        int spawnY;
+        int centerX;
+        int centerY;
 
         Block();
         void moveLeft();

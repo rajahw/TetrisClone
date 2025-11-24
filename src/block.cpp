@@ -5,21 +5,21 @@ Block::Block() {}
 void Block::moveLeft() {
     if (!atLeft()) {
         position.x -= size;
-        spawnX--;
+        centerX--;
     }
 }
 
 void Block::moveRight() {
     if (!atRight()) {
         position.x += size;
-        spawnX++;
+        centerX++;
     }
 }
 
 void Block::moveDown() {
     if (!atBottom()) {
         position.y += size;
-        spawnY++;
+        centerY++;
     }
 }
 
@@ -46,7 +46,7 @@ bool Block::collidingLeft(const Arena& arena) {
         for (int row = 0; row < dimensions; row++) {
             for (int col = 0; col < dimensions; col++) {
                 if (body[rotation][row][col] == '#') {
-                    if (arena.body[spawnY + row][spawnX + col - 1] != 'X') {
+                    if (arena.body[centerY + row][centerX + col - 1] != 'X') {
                         return true;
                     }
                 }
@@ -63,7 +63,7 @@ bool Block::collidingRight(const Arena& arena) {
         for (int row = 0; row < dimensions; row++) {
             for (int col = 0; col < dimensions; col++) {
                 if (body[rotation][row][col] == '#') {
-                    if (arena.body[spawnY + row][spawnX + col + 1] != 'X') {
+                    if (arena.body[centerY + row][centerX + col + 1] != 'X') {
                         return true;
                     }
                 }
@@ -80,7 +80,7 @@ bool Block::collidingBottom(const Arena& arena) {
         for (int row = 0; row < dimensions; row++) {
             for (int col = 0; col < dimensions; col++) {
                 if (body[rotation][row][col] == '#') {
-                    if (arena.body[spawnY + row + 1][spawnX + col] != 'X') {
+                    if (arena.body[centerY + row + 1][centerX + col] != 'X') {
                         return true;
                     }
                 }
@@ -97,8 +97,8 @@ bool Block::rotationIsPossible(const Arena& arena, const Offset& offset) {
 
     for (int row = 0; row < dimensions; row++) {
         for (int col = 0; col < dimensions; col++) {
-            newX = spawnX + offset.x + col;
-            newY = spawnY + offset.y + row;
+            newX = centerX + offset.x + col;
+            newY = centerY + offset.y + row;
             if (body[rotation][row][col] == '#') {
                 if (newX < 0 || newX >= columns || newY < 0 || newY >= rows) {
                     return false;
@@ -115,8 +115,8 @@ void Block::counterKick(const Arena& arena) {
     rotateCounter();
     for (int test = 0; test < 5; test++) {
         if (rotationIsPossible(arena, counterOffset[rotation][test])) {
-            spawnX += counterOffset[rotation][test].x;
-            spawnY += counterOffset[rotation][test].y;
+            centerX += counterOffset[rotation][test].x;
+            centerY += counterOffset[rotation][test].y;
             position.x += counterOffset[rotation][test].x * size;
             position.y += counterOffset[rotation][test].y * size;
             return;
@@ -129,8 +129,8 @@ void Block::clockwiseKick(const Arena& arena) {
     rotateClockwise();
     for (int test = 0; test < 5; test++) {
         if (rotationIsPossible(arena, clockwiseOffset[rotation][test])) {
-            spawnX += clockwiseOffset[rotation][test].x;
-            spawnY += clockwiseOffset[rotation][test].y;
+            centerX += clockwiseOffset[rotation][test].x;
+            centerY += clockwiseOffset[rotation][test].y;
             position.x += clockwiseOffset[rotation][test].x * size;
             position.y += clockwiseOffset[rotation][test].y * size;
             return;
